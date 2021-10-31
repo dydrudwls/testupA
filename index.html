@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<title>학습계획 세우는 챗봇</title>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="updatesAtomy"
+    agent-id="219bd18e-0e22-403a-bfbe-5571a3868c16"
+    language-code="ko"
+  ></df-messenger>
+	  df-messenger {
+	   --df-messenger-bot-message: #818e96;
+	   --df-messenger-button-titlebar-color: #3c9155;
+	   --df-messenger-chat-background-color: #fafafa;
+	   --df-messenger-font-color: white;
+	   --df-messenger-send-icon: #3c9155;
+	   --df-messenger-user-message: #3c9155;
+	  }
+	  h1 {font-size: 30px;}
+	  P {font-size: 16px;}
+	</style>
+</head>
+
+<body>
+	<h1>학습계획 도우미 "testupA"</h1>
+	<p><span style="background-color: #818e96;color: #ffffff"> 안녕하세요! </span> 말주머니를 눌러 대화를 시작하세요.</p>
+	<p><span style="font-weight:bold"><챗봇 사용 안내서></span>
+	<blockquote> 1) 이름 입력시, 본인의 이름을 입력해주세요(예. 홍길동)<br>
+		2) 챗봇 사용 중 처음 부터 하고 싶다면 대화 창에 ‘처음’ 이라고 입력해 주세요.<br>
+		3) 은어, 욕설 사용을 하지 말아 주세요.<br>
+		4) 대화가 원활하지 않은 경우, 예시대로 적어주세요.<br>
+		5) 챗봇과 대화가 후 영어강의를 들을 수 있는 링크가 나옵니다
+		   링크를 클릭하여 강의를 꼭 들어주세요. </br>
+	</blockquote>
+	</p>	
+</body>
+
+</html>
